@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- MY CSS -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <script src="accuracy.js" defer></script>
+    </head>
+    <body>
+        <div class="popup-div">
+            <div class="news-header">
+                <img style="width: 30px; height: 30px;" class="news-icon" src="images/newsicon.png">
+                <p class="news-outlet-p"><strong>NEW YORK TIMES</strong></p>
+            </div>
+            <a href="popup.html"><button class="back-btn">&lt- Back</button></a>
+            <p class="article-type-header" style="margin-top: 75px;">Is this accurate?</p>
+            <p class="article-type" style="margin: auto;"><strong>Loading...</strong></p>
+            <form class="accuracy-form">
+                <span class="accuracy-option">
+                    <input type="radio" name="accuracy" id="yes" value="yes">
+                    <label for="yes">Yes</label>
+                </span>
+                <span class="accuracy-option">
+                    <input type="radio" name="accuracy" id="no" value="no">
+                    <label for="no">No</label>
+                </span>
+            </form>
+            <a href="feedback-thank-you.html"><button class="submit-btn">SUBMIT</button></a>
+        </div>
+    </body>
+</html>
