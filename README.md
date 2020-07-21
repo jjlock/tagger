@@ -1,5 +1,5 @@
 # Tagger
-A Google Chrome extension prototype. The extension will determine whether an article on 
+A Google Chrome extension prototype. This extension will determine whether an article on 
 the New York Times website is an opinion or objective article by looking at the url of 
 the article.
 
